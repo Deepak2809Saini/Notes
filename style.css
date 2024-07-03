@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( 50deg, rgb(206, 66, 206) , rgba(0, 0, 255, 0.622));
+    border: none;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+.top{
+    margin: 30px 70px;
+    display: flex;
+    align-items: center;
+
+}
+.not-png{
+    height: 80px ;
+    margin-right:10px;
+    margin-top: 10px;
+}
+.main-heading{
+    font-size: 50px ;
+    margin-top: 15px;
+}
+.edit-btn{
+    height: 20px;
+    
+}
+.btn-creat{
+    height: 60px;
+    font-size: 25px;
+    padding: 5px 10px;
+    color:black;
+    border: 2px solid rgb(76, 3, 145);
+    border-radius: 40px;
+    background-color: rgb(94, 5, 178);
+    margin: 20px 100px ;
+    cursor: pointer;
+}
+.btn-creat:hover{
+    background-color: rgb(121, 16, 219);
+}
+.notes-field{
+    margin-left: 90px;
+    
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width:450px;
+    min-height:100px ;
+    background-color: white;
+    font-size: larger;
+    color: #333;
+    padding: 20px ;
+    margin: 20px 0px;
+    outline: none;
+    border-radius: 20px;
+    /* display: none; */
+}
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px ;
+    right: 10px;
+    cursor: pointer;
+
+}
